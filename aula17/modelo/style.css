@@ -27,6 +27,9 @@ section{
 div#res{
     padding-top: 10px;
 }
+select#flista{
+    width: 200px;
+}
 
 footer{
     color: white;
