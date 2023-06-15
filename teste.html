@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+
+    <style>
+        body{
+            background-color: blue;
+        }
+        .botao{
+            background-color: red;
+        }
+    </style>
+</head>
+<body id="body">
+
+    <input type="text" name="txt" id="myInput">
+    <button  id="myButton">Enviar</button>
+    
+</body>
+
+<script>
+    var element = document.getElementById('body');
+    var button = document.getElementById('myButton');
+    
+    button.addEventListener('click', function(){
+        element.style.backgroundColor = 'red'
+    })
+    
+
+       
+
+  
+</script>
+
+</html>
